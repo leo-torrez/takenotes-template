@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Take Notes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Take Notes">
+    <meta name="author" content="Ítalo Barboza">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html">Take Notes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuNavbar" aria-controls="menuNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="menuNavbarProfile" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Ítalo Barboza
+                        </a>
+                    <div class="dropdown-menu" aria-labelledby="menuNavbarProfile">
+                        <a class="dropdown-item" href="./dashboard.html">Dashboard</a>
+                        <a class="dropdown-item" href="./profile.html">Profile</a>
+                        <a class="dropdown-item" href="./signout.html">Sign out</a>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="./login.html">Login</a></li>
+                <li class="nav-item"><a class="nav-link active" href="./register.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="col-sm-9 mx-auto">
+            <div class="card card-login border-dark">
+                <div class="card-header">Register</div>
+                <div class="card-body text-dark">
+                    <form>
+                        <div class="form-group row">
+                            <label for=" inputName" class="col-sm-4 col-form-label">Name</label>
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="inputName" placeholder="Name">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputEmail" class="col-sm-4 col-form-label">E-mail Address</label>
+                            <div class="col-sm-6">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="E-mail Address">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inpuPassword" class="col-sm-4 col-form-label">Password</label>
+                            <div class="col-sm-6">
+                                <input type="password" class="form-control" id="inpuPassword" placeholder="Password">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="inputConfirmPassword" class="col-sm-4 col-form-label">Confirm Password</label>
+                            <div class="col-sm-6">
+                                <input type="password" class="form-control" id="inputConfirmPassword" placeholder="Confirm Password">
+                            </div>
+                        </div>
+                        <div class="form-group row justify-content-end d-flex align-items-center">
+                            <div class="col-sm-8">
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer bg-dark text-white">
+        <div class="container">
+            <span>&copy; 2017</span>
+        </div>
+    </footer>
+    <script src="./js/jquery-3.2.1.min.js"></script>
+    <script src="./js/popper.js"></script>
+    <script src="./js/tooltip.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+</body>
+
+</html>
